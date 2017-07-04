@@ -1,5 +1,6 @@
 body {
     background: #232323;
+    color: white;
 }
 
 h1 {
@@ -16,6 +17,5 @@ h1 {
     margin: 1.66%;
     float: left;
     padding-bottom: 30%;
-    background: purple;
 }
 
