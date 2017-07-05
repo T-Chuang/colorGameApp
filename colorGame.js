@@ -44,6 +44,8 @@ resetButton.addEventListener("click", function(){
     //reset display and nav
     h1.style.backgroundColor = document.body.style.backgroundColor;
     colorDisplay.textContent = pickedColor;
+    this.textContent = "New Colors"
+    messageDisplay.textContent = "";
     //reset color of squares 
     for(var i = 0; 0 < squares.length; i++){
     squares[i].style.backgroundColor = colors[i];
